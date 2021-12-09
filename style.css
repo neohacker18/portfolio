@@ -3,7 +3,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .hero-container{
@@ -150,25 +149,11 @@ background-attachment: fixed;
 }
 
 .firstHeading .details{
-    display: flex;
-    flex-direction: row;
-    padding-top: 30px;
+  align-items: right;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
-.firstHeading .details div{
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  height: 80px;
-    padding: 40px 70px;
-    font-size: 17px;
-    color: white;
-    align-items: center;
-}
-
-.firstHeading .details .div1, .div2{
-    border-right:2px solid white ;
-}
 
 .firstHeading h1{
     color: white;
@@ -330,4 +315,11 @@ background-attachment: fixed;
 .projectHeading{
   padding: 60px ;
   color: white;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .firstContainer{
+    background-image: url(./img/wallpaper.jpg);
+  }
 }
