@@ -23,12 +23,31 @@ background-attachment: fixed;
     margin-right: 2%;
 }
 
+.heading-titlediv{
+  padding-top: 10px;
+}
 
-.navbar-brand 
+.navbar .navbar-brand 
 {
+  color: white;
     margin-left:1% ;
     align-items: center;
 }
+
+.detailsMine{
+  padding-top: 40px;
+}
+
+.aryanHeading{
+  font-size:50px;
+  font-weight: bold;
+}
+
+#navbarCollapse { 
+  margin: auto;
+  padding-left: 34%;
+}
+
 
 .btn-header{
     margin-left: 15%;
@@ -54,10 +73,10 @@ background-attachment: fixed;
 /*///////////////////// Button ////////////////////*/
   
   .btn {
-    background: transparent;
+    background: black;
     height: 50px;
     min-width: 150px;
-    border: none;
+    border:none;
     border-radius: 10px;
     color: #eee;
     font-size: 20px;
@@ -82,6 +101,7 @@ background-attachment: fixed;
     left: 50%;
     overflow: hidden;
     transition: 1000ms;
+
   }
   
   .btn-header .circle {
@@ -109,7 +129,11 @@ background-attachment: fixed;
     background: transparent;
     color: #03e9f4;
   }
-  
+  .hh{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
   .btn-header:hover {
     color: #03e9f4;
     background: transparent;
@@ -167,7 +191,7 @@ background-attachment: fixed;
 }
 
 .socialMedia{
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 .socialMedia img{
@@ -270,6 +294,7 @@ background-attachment: fixed;
 
 .thirdContainer{
   margin-top: 100px;
+  margin-bottom: 150px;
   background-image: url(./img/bg.jfif);
   background-attachment: fixed;
   background-repeat: no-repeat;
