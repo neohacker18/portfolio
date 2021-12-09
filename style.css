@@ -161,7 +161,7 @@ background-attachment: fixed;
 /* //////////////First heading //////////////////////////*/
 
 .firstHeading{
-    padding-top: 60px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -343,8 +343,31 @@ background-attachment: fixed;
 }
 
 
-@media only screen and (max-width: 900px) {
-  .firstContainer{
-    background-image: url(./img/wallpaper.jpg);
+/* V2.0.0 CHANGESSSSSSSSSSSSSSSSSSS */
+
+@media only screen and (max-width: 1400px) {
+  #navbarCollapse{
+    padding-left: 0;
   }
 }
+
+
+@media only screen and (max-height: 750px) {
+  .heading-titlediv h1{
+    font-size: 40px;
+  }
+  .aryanHeading{
+    font-size: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 650px ) {
+  .heading-titlediv h1{
+    font-size: 40px;
+  }
+  .aryanHeading{
+    font-size: 30px;
+  }
+}
+
